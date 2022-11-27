@@ -1,8 +1,7 @@
 import React from "react";
 import cue from "../../images/cue.png";
 import fb_new from "../../fb_new.svg";
-import canceal from "../../canceal.svg";
-import { Link } from "react-router-dom";
+
 import Topnav from "./partials/topnav";
 
 
@@ -22,7 +21,7 @@ const Account = () => (
 
 <div className="col-sm-12">
 
-    <img src={cue} className="img-fluid cue-logo"/>
+    <img src={cue} alt="" className="img-fluid cue-logo"/>
 
 <h4 className="my-account">My Account</h4>
 
@@ -37,7 +36,7 @@ const Account = () => (
 
 <div className="container">
 
-<button className="btn-account"><span><img src={fb_new} className="img-fluid fb"/></span>Sign in with facebook</button>
+<button className="btn-account"><span><img src={fb_new} alt="" className="img-fluid fb"/></span>Sign in with facebook</button>
 
 
 {/*

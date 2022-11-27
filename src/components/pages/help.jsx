@@ -2,7 +2,7 @@ import React from "react";
 import Topnav from "./partials/topnav";
 import helpgame from "../../helpgame.svg";
 import helpaccount from "../../helpaccount.svg";
-import { Link } from "react-router-dom";
+
 
 
 
@@ -55,11 +55,11 @@ const Help = () => (
 <div className="col ">
 
 <a href="gamehelp.html" title="Help with a game">
- <img src={helpgame} className="img-fluid help-icon zoom"/>
+ <img alt="" src={helpgame} className="img-fluid help-icon zoom"/>
 </a>
 
 <a href="accounts.html" title="Help My account">
-<img src={helpaccount} className="img-fluid help-icon  zoom"/>
+<img alt="" src={helpaccount} className="img-fluid help-icon  zoom"/>
 </a>
 
 </div>

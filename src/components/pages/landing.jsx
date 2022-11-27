@@ -1,14 +1,14 @@
 import React from "react";
 import Topnav from "./partials/topnav";
 import Newsletter from "./partials/newsletter";
-import ball from "../../ball.svg";
+// import ball from "../../ball.svg";
 import play from "../../play.svg"
 import { Link } from "react-router-dom";
 import get from "../../get.png";
 import basics from "../../basics.png";
 import promotions from "../../promotions.png";
 import tips from "../../tips.png";
-import locations from "../../locations.png";
+// import locations from "../../locations.png";
 
 
 
@@ -28,7 +28,7 @@ const Landing = () => (
 
 <div className="col-sm-12">
 {/** 
-<img src={ball} className="img-fluid balls "/>
+<img alt="" src={ball} className="img-fluid balls "/>
 **/}
 </div>
 
@@ -46,7 +46,7 @@ const Landing = () => (
 
 <div className="card mrg-top-2">
 
-<img src={get} className="img-fluid get-mobile"/>
+<img alt="" src={get} className="img-fluid get-mobile"/>
 <h4 className="card-fnt-header"> <span className="gold">Get </span> <br/> Started</h4>
 <div className="container">
 <div className="brder"></div>
@@ -63,7 +63,7 @@ const Landing = () => (
 
 <div className="col-sm">
 <div className="card mrg-top-2">
-<img src={basics} className="img-fluid"/>
+<img alt="" src={basics} className="img-fluid"/>
 <h4 className="card-fnt-header"> <span className="gold">Cueball </span> <br/> Basics</h4>
 <div className="container">
 <div className="brder"></div>
@@ -79,7 +79,7 @@ const Landing = () => (
 
 <div className="col-sm">
 <div className="card mrg-top-2">
-<img src={promotions} className="img-fluid"/>
+<img alt="" src={promotions} className="img-fluid"/>
 <h4 className="card-fnt-header"> <span className="gold">The Cueball</span> <br/>Lunch party</h4>
 <div className="container">
 <div className="brder"></div>
@@ -94,7 +94,7 @@ const Landing = () => (
 
 <div className="col-sm">
 <div className="card left-nn mrg-top-2">
-<img src={tips} className="img-fluid"/>
+<img alt="" src={tips} className="img-fluid"/>
 <h4 className="card-fnt-header"> <span className="gold">Tips </span> <br/> And Tricks</h4>
 <div className="container">
 <div className="brder"></div>
@@ -126,7 +126,7 @@ const Landing = () => (
 
 <div className="col-sm-12">
 
-<img src={locations} className="img-fluid loocc"/>
+<img alt="" src={locations} className="img-fluid loocc"/>
 
 </div>
 
@@ -164,7 +164,7 @@ const Landing = () => (
 
 <Link to="/">
 
-<span className="span-text"><img src={play} className="img-fluid icon-small-2 zoom"/>Watch Trailer </span>
+<span className="span-text"><img alt="" src={play} className="img-fluid icon-small-2 zoom"/>Watch Trailer </span>
 
 </Link>
 

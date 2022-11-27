@@ -17,20 +17,20 @@ const Topnav = () => (
     <div className="float-left">
 
 <Link to="/">
-    <img src={home} className="img-fluid icon-small zoom" title="Go back"/>
+    <img alt="" src={home} className="img-fluid icon-small zoom" title="Go back"/>
 </Link>
 
-<img src={cuee} className="img-fluid the-cue" />
+<img alt="" src={cuee} className="img-fluid the-cue" />
 
     </div>
 
 <div className="float-right">
     <a href="https://www.cueballwallet.com" target="_blank;">
-<img src={profile} className="img-fluid icon-small zoom" title="My profile"/>
+<img alt="" src={profile} className="img-fluid icon-small zoom" title="My profile"/>
 </a>
 
 <Link to="/help">
-<img src={help} className="img-fluid icon-small zoom" title="get help"/>
+<img alt="" src={help} className="img-fluid icon-small zoom" title="get help"/>
 </Link>
 </div>
 

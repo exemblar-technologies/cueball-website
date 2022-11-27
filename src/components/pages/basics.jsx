@@ -29,7 +29,7 @@ const Basics = () => (
 
 <h4 className="numbers">1</h4>
 
-<img src={table1} className="img-fluid resize"/>
+<img alt="" src={table1} className="img-fluid resize"/>
 
 </div>
 
@@ -40,7 +40,7 @@ const Basics = () => (
 <h4 className="numbers">2</h4>
 
 
-<img src={table3} className="img-fluid resize"/>
+<img alt="" src={table3} className="img-fluid resize"/>
 
 </div>
 
@@ -56,7 +56,7 @@ const Basics = () => (
 
 <h4 className="numbers">3</h4>
 
-<img src={table4} className="img-fluid resize"/>
+<img alt="" src={table4} className="img-fluid resize"/>
 
 </div>
 
@@ -65,7 +65,7 @@ const Basics = () => (
 
 <h4 className="numbers">4</h4>
 
-<img src={table6} className="img-fluid resize"/>
+<img alt="" src={table6} className="img-fluid resize"/>
 
 </div>
 
@@ -75,7 +75,7 @@ const Basics = () => (
 
 <h4 className="numbers">5</h4>
 
-<img src={table5} className="img-fluid resize"/>
+<img alt="" src={table5} className="img-fluid resize"/>
 
 </div>
 

@@ -25,11 +25,11 @@ const Getstarted = () => (
 
 <div>
 <a href="https://play.google.com/store/apps/details?id=com.optimalsourceplus.cueball" target="_blank;">
-<img src={googleplaywhite} className="img-fluid img-logo-app zoom "/>
+<img alt="" src={googleplaywhite} className="img-fluid img-logo-app zoom "/>
 </a>
 
 <a href="https://apps.apple.com/ng/app/the-cue-ball/id1488715177" target="_blank;">
-<img src={appstore} className="img-fluid img-logo-app-2 zoom"/>
+<img alt="" src={appstore} className="img-fluid img-logo-app-2 zoom"/>
 </a>
 </div>
 

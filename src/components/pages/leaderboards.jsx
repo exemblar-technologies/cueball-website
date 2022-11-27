@@ -21,7 +21,7 @@ const Leaderboards = () => (
 <div className="card-leader-board">
 
 <div className="col-sm-12">
-<h4 className="leader-font"><img src={helpgame} className="img-fluid help-game"/>Leader boards</h4>
+<h4 className="leader-font"><img alt="" src={helpgame} className="img-fluid help-game"/>Leader boards</h4>
 </div>
 
 <div className="container row ">
